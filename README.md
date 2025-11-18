@@ -26,17 +26,17 @@ Logs all decisions and executions
 
 ✔ Strategy Research Suite
 
-A set of Jupyter notebooks used for systematic exploration:
+- A set of Jupyter notebooks used for systematic exploration:
 
-Guru_2_MACD_EMA100.ipynb – MACD + EMA trend filters
+- Guru_2_MACD_EMA100.ipynb – MACD + EMA trend filters
 
-Guru_Tester.ipynb – general strategy testing framework
+- Guru_Tester.ipynb – general strategy testing framework
 
-Indicators.ipynb – indicator calculations (MA, EMA, MACD, Bollinger Bands)
+- Indicators.ipynb – indicator calculations (MA, EMA, MACD, Bollinger Bands)
 
-MA_Cross_An.ipynb, MA_Test.ipynb – moving average crossover exploration
+- MA_Cross_An.ipynb, MA_Test.ipynb – moving average crossover exploration
 
-plotting_candles.ipynb – interactive candlestick visualization
+- plotting_candles.ipynb – interactive candlestick visualization
 
 These notebooks help evaluate performance, test ideas quickly, and compare results across pairs.
 
@@ -47,13 +47,13 @@ Each file contains:
 
 Strategy returns
 
-Trend classifications
+- Trend classifications
 
-MACD/EMA signals
+- MACD/EMA signals
 
-Candle direction patterns
+- Candle direction patterns
 
-Win/loss statistics
+- Win/loss statistics
 
 These allow rapid experimentation without re-running full backtests.
 
@@ -61,12 +61,21 @@ These allow rapid experimentation without re-running full backtests.
 
 The included plotting.py module creates:
 
-High-resolution candlestick charts
+- High-resolution candlestick charts
 
-Indicator overlays (MA, EMA, MACD, Bollinger Bands)
+- Indicator overlays (MA, EMA, MACD, Bollinger Bands)
 
-Secondary-axis support
+- Secondary-axis support
 
-Dark-themed visualizations
+- Dark-themed visualizations
 
 Useful for visually validating patterns and inspecting price behavior.
+
+Languages & Libraries
+
+- Python (pandas, plotly)
+
+Platforms
+
+- OANDA v3 REST API
+- Jupyter Notebook (research environment)
